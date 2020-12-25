@@ -9,6 +9,7 @@ import Writing from '../components/StyledWriting'
 import Info from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Features from '../components/Features'
+import Download from '../components/DownloadSection'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -27,6 +28,7 @@ const Home = () => {
             <Info {...homeObjTwo} />
             <Info {...homeObjThree} />
             <Features />
+            <Download />
         </>
     )
 }
