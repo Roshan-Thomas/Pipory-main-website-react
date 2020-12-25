@@ -8,6 +8,7 @@ import Hero from '../components/Hero'
 import Writing from '../components/StyledWriting'
 import Info from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
+import Features from '../components/Features'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -25,6 +26,7 @@ const Home = () => {
             <Info {...homeObjOne} />
             <Info {...homeObjTwo} />
             <Info {...homeObjThree} />
+            <Features />
         </>
     )
 }
