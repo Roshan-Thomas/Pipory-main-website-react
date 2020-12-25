@@ -2,15 +2,8 @@ import React, {useState} from 'react'
 
 // Import Components
 
-import Navbar from '../components/Navbar'
-import Sidebar from '../components/Sidebar'
-import Hero from '../components/Hero'
-import Writing from '../components/StyledWriting'
-import Info from '../components/InfoSection'
+import { Navbar, Sidebar, Hero, Writing, Info, Features, Download, Footer } from '../components'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
-import Features from '../components/Features'
-import Download from '../components/DownloadSection'
-import Footer from '../components/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
