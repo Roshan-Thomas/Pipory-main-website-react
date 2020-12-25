@@ -1,0 +1,8 @@
+export {default as Navbar} from './Navbar'
+export {default as Sidebar} from './Sidebar'
+export {default as Hero} from './Hero'
+export {default as Writing} from './StyledWriting'
+export {default as Info} from './InfoSection'
+export {default as Features} from './Features'
+export {default as Download} from './DownloadSection'
+export {default as Footer} from './Footer'
