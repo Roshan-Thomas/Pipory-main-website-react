@@ -185,14 +185,8 @@ any changes that We may introduce.
     implied warranties of correctness, validity, accuracy, completeness, appropriateness,
     fitness, compatibility for a particular purpose or outcome or non-infringement. We do not
     warrant that the use of the App will always be secured, uninterrupted, available,
-    error-free or will meet Your requirements or expectations, or that any defects in the App
+    error-free or will meet Your requirements or expectations, or that any defects in the App will be corrected or result in the desired results. We disclaim liability for, and no warranty is made with respect to, the connectivity and availability of the App at all times and the results of the use of the App.
 
-
-```
-will be corrected or result in the desired results. We disclaim liability for, and no warranty
-is made with respect to, the connectivity and availability of the App at all times and the
-results of the use of the App.
-```
 2. Opinions, advice, statements, offers, or other information or content made available
     through the App, but not directly by Us, are those of their respective authors, and should
     not necessarily be relied upon. Such authors are solely responsible for such Content.
@@ -245,7 +239,7 @@ You, and You will co-operate fully in asserting any available defenses in such c
     inappropriate content. Please do not take any user content as fully accurate and/or
     complete. We will not be liable or responsible for any false and misleading content and
     information given by any user. If You have any concerns over any user content, please
-    write to us on support@stepsetgo.com with the details thereof.
+    write to us on support@pipory.com with the details thereof.
 2. You hereby acknowledge and agree that You shall ensure that at all times Your
     interaction with other users of the App will always be lawful and appropriate and that You
     alone shall be responsible for all consequences thereof.
