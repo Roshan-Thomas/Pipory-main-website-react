@@ -28,7 +28,7 @@ const Features = () => {
                 </FeaturesCard>
                 <FeaturesCard>
                     <FeaturesImage src={Image2} />
-                    <FeaturesH2>X Languages</FeaturesH2>
+                    <FeaturesH2 small="true">X Languages</FeaturesH2>
                     <FeaturesP>
                         Creativity cannot be limited to one language. And we acknowledge that more than anyone else! Express your passion in X different languages.
                     </FeaturesP>
