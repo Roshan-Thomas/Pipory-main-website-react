@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import ErrorPage from './pages/404'
 import Post from './templates/postTemplate'
-import ScrollToTop from './components/ScrollToTop'
+import {ScrollToTop} from './components'
 
 function App() {
   return (
