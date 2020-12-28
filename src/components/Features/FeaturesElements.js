@@ -82,6 +82,10 @@ export const FeaturesH2 = styled.h2`
     @media screen and (max-width: 480px) {
         font-size: 25px;
     }
+
+    @media screen and (max-width: 300px) {
+        font-size: ${({small}) => (small ? '22px' : '25px')};
+    }
 `
 
 export const FeaturesP = styled.p`

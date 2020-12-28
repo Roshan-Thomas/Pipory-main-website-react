@@ -5,6 +5,15 @@ export const PostContainer = styled.div`
     margin-right: 150px;
     margin-left: 150px;
     padding: 30px; 
+
+	@media screen and (max-width: 768px) {
+		padding: 30px 0px;
+		margin: auto 80px; 
+	}
+
+	@media screen and (max-width: 480px) {
+		margin: auto 30px;
+	}
 `
 
 export const PostTitle = styled.h1`
