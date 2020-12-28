@@ -31,10 +31,21 @@ export const HeroImg = styled.img`
     width: 115%;
     height: 100%;
 
-    @media screen and (max-width: 768px) {
+    /* @media screen and (max-width: 768px) {
         max-width: 90%;
         width: auto;
         height: auto;
+    } */
+
+    @media screen and (max-width: 480px) {
+        max-height: 28rem;
+        max-width: auto;
+        background-position: center 70%;
+    }
+
+    @media screen and (min-width: 40em) {
+        min-height: 25rem;
+        background-position: center 70%;
     }
 `
 
@@ -66,6 +77,10 @@ export const HeroH1 = styled.h1`
 
     @media screen and (max-width: 480px) {
         font-size: 40px;
+    }
+
+    @media screen and (max-width: 300px) {
+        font-size: 30px;
     }
 `
 
@@ -107,5 +122,13 @@ export const HeroBtnLink = styled(Link)`
         transition: all 0.2s ease-in-out;
         background: #fff;
         color: #010606;
+    }
+
+    @media screen and (max-width: 350px) {
+        padding: 15px 55px;
+    }
+
+    @media screen and (max-width: 300px) {
+        padding: 15px 35px;
     }
 `
