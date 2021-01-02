@@ -52,7 +52,7 @@ export const TextWrapper = styled.div`
 
 export const Heading1 = styled.h1`
     margin-bottom: 20px;
-    font-size: 150px;
+    font-size: ${({fontBig}) => (fontBig ? '150px' : '120px')};
     font-weight: 600;
     line-height: 1;
     color: #000;
@@ -65,14 +65,13 @@ export const Heading1 = styled.h1`
 
 export const Heading2 = styled.h2`
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 600;
     line-height: 1;
-    letter-spacing: 0.09em;
     color: #000;
 
     @media screen and (max-width: 480px) {
-        font-size: 20px;
+        font-size: 40px;
         line-height: 1.1;
     }
 `

@@ -18,6 +18,7 @@ const HeroInfo = ({
     imgStart,
     headline1,
     headline2,
+    fontBig,
     description,
     img,
     alt
@@ -30,7 +31,7 @@ const HeroInfo = ({
                         <Column1>
                             <TextWrapper>
                                 <Heading2>{headline2}</Heading2>
-                                <Heading1>{headline1}</Heading1>
+                                <Heading1 fontBig={fontBig}>{headline1}</Heading1>
                                 <Paragraph>{description}</Paragraph>
                             </TextWrapper>
                             {/* TODO: Add Buttons */}
