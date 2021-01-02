@@ -14,7 +14,7 @@ import Image from '../../images/hero-pic.png'
 
 const Hero = () => {
     return (
-        <HeroContainer>
+        <HeroContainer bgDark={true}>
             <HeroWrapper>
                 <ColumnLeft>
                     <HeroImg src={Image} alt="hero image" />

@@ -39,3 +39,17 @@ export const homeObjThree = {
     alt: 'mockup 3',
     darkText: true
 }
+
+export const collabObjOne = {
+    id: 'collab-1',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    headline: "Let's make it easy for you",
+    description: 'Apply now and get a special code that will benefit you and your followers when they enter Pipory.',
+    description2: 'Users entering your code will get 15 Coins. Each time a user enters your code, you will recieve 5 Coins.',
+    imgStart: true,
+    img: require('../../images/collab-2.png').default,
+    alt: 'users collaborating',
+    darkText: true
+}
