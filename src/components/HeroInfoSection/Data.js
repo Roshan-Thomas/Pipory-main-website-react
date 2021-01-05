@@ -8,7 +8,9 @@ export const collabHeroObj = {
     alt: 'collaboration',
     ButtonText1: 'Apply Now',
     ButtonText2: 'Learn More',
-    buttonShow: true
+    buttonShow: true,
+    button1Link: '/apply-now',
+    button2Link: '/learn-more'
 } 
 
 export const careersHeroObj = {
@@ -21,4 +23,17 @@ export const careersHeroObj = {
     img: require('../../images/astronaut.png').default,
     alt: 'astronaut',
     ButtonText1: 'View Open Positions',
+    button1Link: '/open-positions'
+}
+
+export const NotFoundPage = {
+    id: 'notFound',
+    headline1: '404',
+    fontBig: true,
+    description: 'The page you are looking for might be removed or is temporarily unavailabe',
+    imgStart: false,
+    img: require('../../images/notfound.png').default,
+    alt: 'not found illustration',
+    ButtonText1: 'Come Home',
+    button1Link: '/'
 }

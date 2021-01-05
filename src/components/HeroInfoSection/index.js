@@ -27,7 +27,9 @@ const HeroInfo = ({
     alt,
     ButtonText1,
     ButtonText2,
-    buttonShow
+    buttonShow,
+    button1Link,
+    button2Link
 }) => {
     return (
         <>
@@ -41,8 +43,19 @@ const HeroInfo = ({
                                 <Paragraph>{description}</Paragraph>
                             </TextWrapper>
                             <ButtonWrapper>
-                                <Button1 buttonColor={true}>{ButtonText1}</Button1>
-                                <Button2 buttonColor={false} buttonShow={buttonShow}>{ButtonText2}</Button2>
+                                <Button1 
+                                    buttonColor={true}
+                                    to={button1Link}
+                                >
+                                    {ButtonText1}
+                                </Button1>
+                                <Button2 
+                                    buttonColor={false} 
+                                    buttonShow={buttonShow}
+                                    to={button2Link}
+                                >
+                                    {ButtonText2}
+                                </Button2>
                             </ButtonWrapper>
                         </Column1>
                         <Column2>
