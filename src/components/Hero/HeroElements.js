@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const HeroContainer = styled.div`
-    background: #000;
+    background: ${({bgDark}) => (bgDark ? '#000' : '#fff')};
     padding: 0 60px;
     color: #fff;
 

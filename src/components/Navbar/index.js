@@ -55,11 +55,11 @@ const NavBar = ({ toggle }) => {
                                     Collab
                                 </NavLinks>
                             </NavItem>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLinks to="/challenge">
                                     Challenge
                                 </NavLinks>
-                            </NavItem>
+                            </NavItem> */}
                             <NavItem>
                                 <NavLinks to="/careers" >
                                     Careers

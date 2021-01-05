@@ -1,0 +1,4 @@
+- A Short term online marketing internship for anyone interested
+- Connection with our tightknit community of marketing interns from different parts of    the country.
+- An in-Depth view of how a Start-up like Pipory works.
+- Internship Certificate after completing the challenge successfully.
