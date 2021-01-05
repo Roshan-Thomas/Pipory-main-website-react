@@ -32,22 +32,20 @@ const Footer = () => {
                                 <FooterLinkTitle>About Us</FooterLinkTitle>
                                 <FooterLink to="/">Home</FooterLink>
                                 <FooterLink to="/our-story">Our Story</FooterLink>
-                                <FooterLink to="/">News</FooterLink>
-                                <FooterLink to="/">Careers</FooterLink>
+                                <FooterLink to="/collab">Collab</FooterLink>
+                                <FooterLink to="/careers">Careers</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>More Info</FooterLinkTitle>
                                 <FooterLink to="/1608757200">Terms of service</FooterLink>
                                 <FooterLink to="/1609016400">Privacy Policy</FooterLink>
-                                <FooterLink to="/">Do not sell my personal information</FooterLink>
-                                <FooterLink to="/">More legal notices</FooterLink>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Contact Us</FooterLinkTitle>
                                 <FooterLinkTitle>Customer Support</FooterLinkTitle>
-                                <FooterLink to="/">press@pipory.com</FooterLink>
+                                <FooterLink to="/">support@pipory.com</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Social Media</FooterLinkTitle>
