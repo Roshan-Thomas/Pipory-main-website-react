@@ -10,7 +10,10 @@ import {
     Paragraph,
     Column2,
     ImgWrap,
-    Img
+    Img,
+    ButtonWrapper,
+    Button1,
+    Button2
 } from './HeroInfoElements'
 
 const HeroInfo = ({
@@ -21,7 +24,10 @@ const HeroInfo = ({
     fontBig,
     description,
     img,
-    alt
+    alt,
+    ButtonText1,
+    ButtonText2,
+    buttonShow
 }) => {
     return (
         <>
@@ -34,7 +40,10 @@ const HeroInfo = ({
                                 <Heading1 fontBig={fontBig}>{headline1}</Heading1>
                                 <Paragraph>{description}</Paragraph>
                             </TextWrapper>
-                            {/* TODO: Add Buttons */}
+                            <ButtonWrapper>
+                                <Button1 buttonColor={true}>{ButtonText1}</Button1>
+                                <Button2 buttonColor={false} buttonShow={buttonShow}>{ButtonText2}</Button2>
+                            </ButtonWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>

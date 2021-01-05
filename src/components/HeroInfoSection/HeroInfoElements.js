@@ -1,4 +1,7 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
+
+var buttonbg = 'conic-gradient(from 180deg at 50% 50%, #CA00ED -82.5deg, #6200EE 61.87deg, #CA00ED 277.5deg, #6200EE 421.87deg)';
 
 export const HeroContainer = styled.div`
     color: #000;
@@ -99,4 +102,45 @@ export const Img = styled.img`
     width: 100%;
     margin: 0;
     padding-right: 0; 
+`
+
+export const ButtonWrapper = styled.div`
+    display: flex;
+    align-items: center;
+`
+
+export const Button1 = styled(Link)`
+    border-radius: 50px;
+    background: ${({buttonColor}) => (buttonColor ? `${buttonbg}` : `#fff`)};
+    white-space: nowrap;
+    padding: 15px 70px;
+    margin: 0 10px;
+    color: ${({buttonColor}) => (buttonColor ? '#fff' : '#CA00ED')};
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: ${({buttonColor}) => (buttonColor ? `10px solid ${buttonbg}` : '3px solid #CA00ED')};
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010606;
+        border: ${({buttonColor}) => (buttonColor ? '5px solid #CA00ED' : '5px solid #000')};
+    }
+
+    @media screen and (max-width: 350px) {
+        padding: 15px 55px;
+    }
+
+    @media screen and (max-width: 300px) {
+        padding: 15px 35px;
+    }
+`
+
+export const Button2 = styled(Button1)`
+    display: ${({buttonShow}) => (buttonShow ? '' : 'none')};
 `
