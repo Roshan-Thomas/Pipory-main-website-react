@@ -108,7 +108,7 @@ export const ButtonWrapper = styled.div`
     display: flex;
     align-items: center;
 
-    @media screen and (max-width:480px) {
+    @media screen and (max-width: 600px) {
         flex-direction: column;
     }
 `
@@ -144,7 +144,7 @@ export const Button1 = styled(Link)`
         padding: 15px 35px;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         margin-bottom: 20px;
     }
 `
@@ -152,7 +152,7 @@ export const Button1 = styled(Link)`
 export const Button2 = styled(Button1)`
     display: ${({buttonShow}) => (buttonShow ? '' : 'none')};
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         margin-bottom: 0;
     }
 `
