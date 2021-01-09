@@ -8,14 +8,13 @@ export const HeroContainer = styled.div`
     background: #fff;
 
     @media screen and (max-width: 768px) {
-        padding: 50px 0;
+        padding: 50px 0 0 0;
     }
 `
 
 export const HeroWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 700px;
     width: 100%;
     max-width: 1300px;
     margin-right: auto;
@@ -94,7 +93,8 @@ export const ImgWrap = styled.div`
     height: 100%;
 
     @media screen and (max-width: 780px) {
-        display: none;
+        display: flex;
+        margin: 0;
     }
 `
 
@@ -107,6 +107,10 @@ export const Img = styled.img`
 export const ButtonWrapper = styled.div`
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
 `
 
 export const Button1 = styled(Link)`
@@ -138,9 +142,18 @@ export const Button1 = styled(Link)`
 
     @media screen and (max-width: 300px) {
         padding: 15px 35px;
+        font-size: 15px;
+    }
+
+    @media screen and (max-width: 600px) {
+        margin-bottom: 20px;
     }
 `
 
 export const Button2 = styled(Button1)`
     display: ${({buttonShow}) => (buttonShow ? '' : 'none')};
+
+    @media screen and (max-width: 600px) {
+        margin-bottom: 0;
+    }
 `
