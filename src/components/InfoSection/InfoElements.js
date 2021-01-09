@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 700px;
+    /* height: 700px; */
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -33,13 +33,11 @@ export const InfoRow = styled.div`
 `
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
 `
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
 `
@@ -87,14 +85,10 @@ export const BoldText1 = styled.p`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
-
-    @media screen and (max-width: 780px) {
-        display: none;
-    }
 `
 
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0;
     padding-right: 0;
 `
