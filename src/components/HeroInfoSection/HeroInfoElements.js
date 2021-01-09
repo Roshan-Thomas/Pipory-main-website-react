@@ -107,6 +107,10 @@ export const Img = styled.img`
 export const ButtonWrapper = styled.div`
     display: flex;
     align-items: center;
+
+    @media screen and (max-width:480px) {
+        flex-direction: column;
+    }
 `
 
 export const Button1 = styled(Link)`
@@ -139,8 +143,16 @@ export const Button1 = styled(Link)`
     @media screen and (max-width: 300px) {
         padding: 15px 35px;
     }
+
+    @media screen and (max-width: 480px) {
+        margin-bottom: 20px;
+    }
 `
 
 export const Button2 = styled(Button1)`
     display: ${({buttonShow}) => (buttonShow ? '' : 'none')};
+
+    @media screen and (max-width: 480px) {
+        margin-bottom: 0;
+    }
 `
