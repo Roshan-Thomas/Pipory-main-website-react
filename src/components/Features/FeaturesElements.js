@@ -1,21 +1,12 @@
 import styled from 'styled-components'
 
 export const FeaturesContainer = styled.div`
-    height: 1300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #000;
     margin-bottom: 0px;
-
-    @media screen and (max-width: 768px) {
-        height: 2500px;
-    }
-
-    @media screen and (max-width: 480px) {
-        height: 2100px;
-    }
 `
 
 export const FeaturesWrapper = styled.div`
@@ -43,7 +34,6 @@ export const FeaturesCard = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-height: 500px;
     padding: 30px;
     transition: all 0.2s ease-in-out;
 `
@@ -58,7 +48,7 @@ export const FeaturesH1 = styled.h1`
     font-size: 100px;
     font-family: 'Integral CF';
     color: #2B2B2B;
-    margin-bottom: 64px;
+    margin: 50px 0px;
 
     @media screen and (max-width: 768px) {
         font-size: 80px;
