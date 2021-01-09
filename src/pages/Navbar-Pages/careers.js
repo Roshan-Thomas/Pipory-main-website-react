@@ -39,6 +39,15 @@ const CareerTitle = styled(PostTitle)`
 const CareerWrapper = styled.div`
     margin: 0 150px;
     padding: 20px 0;
+
+    @media screen and (max-width: 480px) {
+        margin: 0 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin: 0 50px;
+        padding: 0;
+    }
 `
 
 const MarkdownCareerStyle = styled(MarkdownStyles)`
@@ -46,4 +55,11 @@ const MarkdownCareerStyle = styled(MarkdownStyles)`
     ul, ol {
 		font-size: 25px;
 	}
+
+    @media screen and (max-width: 480px) {
+        ul, ol {
+            font-size: 20px;
+        }
+    }
+
 `
