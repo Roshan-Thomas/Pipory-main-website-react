@@ -142,6 +142,7 @@ export const Button1 = styled(Link)`
 
     @media screen and (max-width: 300px) {
         padding: 15px 35px;
+        font-size: 15px;
     }
 
     @media screen and (max-width: 600px) {

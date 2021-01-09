@@ -34,6 +34,10 @@ const CareerContainer = styled(PostContainer)`
 const CareerTitle = styled(PostTitle)`
     text-align: center;
     color: #fff;
+
+    @media screen and (max-width: 480px) {
+        font-size: 40px;
+    }
 `
 
 const CareerWrapper = styled.div`
@@ -61,5 +65,4 @@ const MarkdownCareerStyle = styled(MarkdownStyles)`
             font-size: 20px;
         }
     }
-
 `
