@@ -8,14 +8,13 @@ export const HeroContainer = styled.div`
     background: #fff;
 
     @media screen and (max-width: 768px) {
-        padding: 50px 0;
+        padding: 50px 0 0 0;
     }
 `
 
 export const HeroWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 700px;
     width: 100%;
     max-width: 1300px;
     margin-right: auto;
@@ -94,7 +93,8 @@ export const ImgWrap = styled.div`
     height: 100%;
 
     @media screen and (max-width: 780px) {
-        display: none;
+        display: flex;
+        margin: 0;
     }
 `
 
