@@ -66,7 +66,10 @@ export const ColumnRight = styled.div`
 
 export const HeroH1 = styled.h1`
     font-size: 70px;
-    font-family: 'Integral CF';
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1;
     align-items: center;
     justify-content: center;
 

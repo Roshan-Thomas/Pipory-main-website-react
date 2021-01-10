@@ -28,8 +28,10 @@ const StyledWriting = styled.p`
     padding-top: 20px;
     margin-bottom: 20px;
     font-size: 35px;
-    font-family: 'Integral CF';
-    font-weight: 600;
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1;
     text-align: center;
     background: linear-gradient(89.07deg, #000000 23.36%, #6200EE 57.78%, rgba(202, 0, 237, 0.87) 86.46%);
     -webkit-background-clip: text;

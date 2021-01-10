@@ -46,7 +46,9 @@ export const FeaturesImage = styled.img`
 
 export const FeaturesH1 = styled.h1`
     font-size: 100px;
-    font-family: 'Integral CF';
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    font-weight: 900;
     color: #2B2B2B;
     margin: 50px 0px;
 
@@ -65,7 +67,10 @@ export const FeaturesH1 = styled.h1`
 
 export const FeaturesH2 = styled.h2`
     font-size: 40px;
-    font-family: 'Integral CF';
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1;
     color: #fff;
     margin-bottom: 10px;
 

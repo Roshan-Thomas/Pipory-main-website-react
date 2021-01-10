@@ -52,10 +52,11 @@ export const TextWrapper = styled.div`
 export const Heading = styled.h1`
     margin-bottom: 20px;
     font-size: 64px;
-    font-family: 'Integral CF';
-    font-weight: 600;
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    font-weight: 800;
     line-height: 1;
-    letter-spacing: 0.09em;
+    letter-spacing: 0;
     color: #6200EE;
 
     @media screen and (max-width: 480px) {

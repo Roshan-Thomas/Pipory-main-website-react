@@ -27,7 +27,10 @@ export default OurStory
 const Hero = styled.div`
     background-color: #6200EE;
     height: 65vh;
-    font-family: "Integral CF";
+    font-family: "Kanit";
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 800;
     color: #fff;
     font-size: 140px;
     font-weight: bold;

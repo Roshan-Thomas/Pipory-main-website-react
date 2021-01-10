@@ -17,8 +17,10 @@ export const PostContainer = styled.div`
 `
 
 export const PostTitle = styled.h1`
-    font-family: 'Integral CF';
-	font-weight: bold;
+	font-family: 'Kanit';
+	text-transform: uppercase;
+	line-height: 1;
+    font-weight: 800;
 	font-size: 80px;
 
 	@media screen and (max-width: 768px) {
