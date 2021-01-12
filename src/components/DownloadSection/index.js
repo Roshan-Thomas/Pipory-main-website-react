@@ -27,7 +27,7 @@ const Download = () => {
                     </LogoWrap>
                     <DownloadH2>Available Now</DownloadH2>
                     <DownloadLinksWrapper>
-                        <Button
+                        {/* <Button
                             to="/download"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
@@ -35,8 +35,8 @@ const Download = () => {
                             fontBig="true"
                         >
                            <IoLogoApple /> Download on Appstore
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                             to="/download"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
@@ -45,6 +45,15 @@ const Download = () => {
                             fontBig="true"
                         >
                             <IoLogoGooglePlaystore />Download on Playstore 
+                        </Button> */}
+                        <Button
+                            to="/request"
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            primary="true"
+                            fontBig="true"
+                        >
+                            Request Access
                         </Button>
                     </DownloadLinksWrapper>
                 </DownloadWrapper>

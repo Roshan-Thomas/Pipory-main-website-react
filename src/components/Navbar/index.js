@@ -67,7 +67,7 @@ const NavBar = ({ toggle }) => {
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/download">Download Now</NavBtnLink>
+                            <NavBtnLink to="/request">Request Access</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>

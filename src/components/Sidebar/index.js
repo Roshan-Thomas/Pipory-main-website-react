@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="/careers" onClick={toggle}>Careers</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/download">Download Now</SidebarRoute>
+                    <SidebarRoute to="/request">Request Access</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
