@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Button} from '../ButtonElement'
-import { IoLogoGooglePlaystore, IoLogoApple } from 'react-icons/io5'
+// import { IoLogoGooglePlaystore, IoLogoApple } from 'react-icons/io5'
 import logo from '../../images/gatsby-icon.png'
 import {
     DownloadContainer,
