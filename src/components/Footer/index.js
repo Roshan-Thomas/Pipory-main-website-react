@@ -43,9 +43,9 @@ const Footer = () => {
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
                             <FooterLinkItems>
-                                <FooterLinkTitle>Contact Us</FooterLinkTitle>
                                 <FooterLinkTitle>Customer Support</FooterLinkTitle>
                                 <FooterLink to="/">support@pipory.com</FooterLink>
+                                <FooterLink to="/contact">Contact Us</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Social Media</FooterLinkTitle>
@@ -66,7 +66,7 @@ const Footer = () => {
                                 <SocialIconLink href="/" target="_blank" aria-label="Facebook"><FaFacebook /></SocialIconLink>
                                 <SocialIconLink href="/" target="_blank" aria-label="Youtube"><FaYoutube /></SocialIconLink>
                                 <SocialIconLink href="//www.twitter.com/roshan__thomas" target="_blank" aria-label="Twitter"><FaTwitter /></SocialIconLink>
-                                <SocialIconLink href="/" target="_blank" aria-label="Linkedin"><FaLinkedin /></SocialIconLink>
+                                <SocialIconLink href="//www.linkedin.com/company/pipory/" target="_blank" aria-label="Linkedin"><FaLinkedin /></SocialIconLink>
                             </SocialIcons>
                         </SocialMediaWrap>
                     </SocialMedia>

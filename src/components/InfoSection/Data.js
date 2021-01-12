@@ -33,7 +33,6 @@ export const homeObjThree = {
     lightTextDesc: false,
     headline: 'Monetize your Passion',
     description: `A lot of creative talent is being wasted in social media platforms. Earn 1000+ followers in Pipory -> monetize your content and start earning money for the reach you get.`,
-    description2: '100 reach = 1 rupees',
     imgStart: false,
     img: require('../../images/image-3.png').default,
     alt: 'mockup 3',
