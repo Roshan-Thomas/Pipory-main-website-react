@@ -27,6 +27,9 @@ const StyledContainer = styled.div`
 const StyledWriting = styled.p`
     padding-top: 20px;
     margin-bottom: 20px;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 35px;
     font-family: 'Kanit';
     text-transform: uppercase;
