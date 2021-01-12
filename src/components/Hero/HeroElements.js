@@ -15,6 +15,10 @@ export const HeroWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 700px;
+    z-index: 1;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
 
     @media screen and (max-width: 1100px) {
         grid-template-columns: 1fr;
