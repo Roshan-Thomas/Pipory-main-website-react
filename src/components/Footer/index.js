@@ -14,7 +14,8 @@ import {
     SocialLogo, 
     WebsiteRights, 
     SocialIcons, 
-    SocialIconLink
+    SocialIconLink,
+    MailToLink
 } from './FooterElements'
 
 const Footer = () => {
@@ -44,7 +45,7 @@ const Footer = () => {
                         <FooterLinksWrapper>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Customer Support</FooterLinkTitle>
-                                <FooterLink to="/">support@pipory.com</FooterLink>
+                                <MailToLink href="mailto:support@pipory.com" target="_blank">support@pipory.com</MailToLink>
                                 <FooterLink to="/contact">Contact Us</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
