@@ -64,7 +64,7 @@ export const FooterLink = styled(Link)`
     font-weight: 400;
 
     &:hover {
-        color: #CA00ED;
+        color: #FE5009;
         transition: 0.3s ease-out;
     }
 `
@@ -77,7 +77,7 @@ export const MailToLink = styled.a`
     font-weight: 400;
 
     &:hover {
-        color: #CA00ED;
+        color: #FE5009;
         transition: 0.3s ease-out;
     }
 `
@@ -128,7 +128,7 @@ export const SocialIconLink = styled.a`
     font-size: 24px;
 
     &:hover {
-        color: #CA00ED;
+        color: #FE5009;
         transition: 0.3s ease-out;
     }
 `
