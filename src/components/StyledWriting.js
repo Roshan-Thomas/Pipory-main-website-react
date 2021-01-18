@@ -36,7 +36,7 @@ const StyledWriting = styled.p`
     font-weight: 800;
     line-height: 1;
     text-align: center;
-    background: linear-gradient(89.07deg, #000000 23.36%, #6200EE 57.78%, rgba(202, 0, 237, 0.87) 86.46%);
+    background: linear-gradient(89.07deg, #000000 23.36%, #CA229F 55.24%, #FE5009 86.46%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -48,3 +48,4 @@ const StyledWriting = styled.p`
         line-height: 1.1;
     }
 `
+
