@@ -60,7 +60,7 @@ export const SidebarLink = styled(Link)`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: #fe5009;
         transition: 0.2s ease-in-out;
     }
 `;
@@ -72,7 +72,7 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(Link)`
     border-radius: 50px;
-    background: conic-gradient(from 180deg at 50% 50%, #CA00ED -82.5deg, #6200EE 61.87deg, #CA00ED 277.5deg, #6200EE 421.87deg);
+    background: conic-gradient(from 180deg at 50% 50%, #E229B3 -82.5deg, #FE5009 61.87deg, #E229B3 277.5deg, #FE5009 421.87deg);
     white-space: nowrap;
     padding: 16px 64px;
     color: #fff;
