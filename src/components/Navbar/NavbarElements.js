@@ -70,6 +70,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
+    font-family: 'Poppins';
 `;
 
 export const NavLinks = styled(Link)`
@@ -107,7 +108,6 @@ export const NavBtnLink = styled(Link)`
     font-weight: bold;
     outline: none;
     border: none;
-    border-radius: 50px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
