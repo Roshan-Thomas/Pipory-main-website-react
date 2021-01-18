@@ -9,7 +9,6 @@ export const FormContainer = styled.div`
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 
     font-weight: 100;
