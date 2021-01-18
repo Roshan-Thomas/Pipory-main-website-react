@@ -71,7 +71,7 @@ export const FeaturesH2 = styled.h2`
     text-transform: uppercase;
     font-weight: 800;
     line-height: 1;
-    color: #fff;
+    color: #FE5009;
     margin-bottom: 10px;
 
     @media screen and (max-width: 480px) {
