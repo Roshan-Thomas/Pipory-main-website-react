@@ -89,7 +89,7 @@ export const FormButton = styled.button`
     width: 100%;
     border: none;
     border-radius: 50px;
-    background: conic-gradient(from 180deg at 50% 50%, #CA00ED -82.5deg, #6200EE 61.87deg, #CA00ED 277.5deg, #6200EE 421.87deg);
+    background: conic-gradient(from 180deg at 50% 50%, #E229B3 -82.5deg, #FE5009 61.87deg, #E229B3 277.5deg, #FE5009 421.87deg);
     color: #FFF;
     margin: 0 0 5px;
     padding: 10px;
