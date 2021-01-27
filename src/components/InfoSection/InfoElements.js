@@ -84,6 +84,7 @@ export const BoldText1 = styled.p`
 ` 
 
 export const ImgWrap = styled.div`
+    /* TODO: Collab page the image is very small. Make a variable to make the image big  */
     max-width: 200px;
     height: 100%;
     margin-left: auto;

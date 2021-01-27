@@ -11,7 +11,8 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    NavOutwardLink
 } from './NavbarElements'
 
 const NavBar = ({ toggle }) => {
@@ -46,9 +47,9 @@ const NavBar = ({ toggle }) => {
                         </MobileIcon>
                         <NavMenu>
                             <NavItem>
-                                <NavLinks to="/our-story">
-                                    Our Story
-                                </NavLinks>
+                                <NavOutwardLink href="https://piporyblog.wordpress.com/">
+                                    Blog
+                                </NavOutwardLink>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/collab">
