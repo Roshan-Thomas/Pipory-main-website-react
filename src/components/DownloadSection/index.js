@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Button} from '../ButtonElement'
-// import { IoLogoGooglePlaystore, IoLogoApple } from 'react-icons/io5'
+import { IoLogoGooglePlaystore, IoLogoApple } from 'react-icons/io5'
 import logo from '../../images/gatsby-icon.png'
 import {
     DownloadContainer,
@@ -27,17 +27,17 @@ const Download = () => {
                     </LogoWrap>
                     <DownloadH2>Available Now</DownloadH2>
                     <DownloadLinksWrapper>
-                        {/* <Button
-                            to="/download"
+                        <Button
+                            to="/download-applestore"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             primary="true"
                             fontBig="true"
                         >
                            <IoLogoApple /> Download on Appstore
-                        </Button> */}
-                        {/* <Button
-                            to="/download"
+                        </Button>
+                        <Button
+                            to="/download-playstore"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             primary="true"
@@ -45,8 +45,8 @@ const Download = () => {
                             fontBig="true"
                         >
                             <IoLogoGooglePlaystore />Download on Playstore 
-                        </Button> */}
-                        <Button
+                        </Button>
+                        {/* <Button
                             to="/request"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
@@ -54,7 +54,7 @@ const Download = () => {
                             fontBig="true"
                         >
                             Request Access
-                        </Button>
+                        </Button> */}
                     </DownloadLinksWrapper>
                 </DownloadWrapper>
             </DownloadContainer>
