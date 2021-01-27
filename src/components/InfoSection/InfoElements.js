@@ -84,8 +84,15 @@ export const BoldText1 = styled.p`
 ` 
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 200px;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+    @media screen and (max-width: 480px){
+        padding-bottom: 0;
+    }
 `
 
 export const Img = styled.img`
