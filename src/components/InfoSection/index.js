@@ -25,6 +25,7 @@ const InfoSection = ({
     description3, 
     img, 
     alt, 
+    smallImg,
 }) => {
     return (
         <>
@@ -40,7 +41,7 @@ const InfoSection = ({
                             </TextWrapper>
                         </Column1>
                         <Column2>
-                            <ImgWrap>
+                            <ImgWrap small={smallImg}>
                                 <Img src={img} alt={alt} />
                             </ImgWrap>
                         </Column2>
