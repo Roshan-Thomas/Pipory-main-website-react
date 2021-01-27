@@ -84,7 +84,7 @@ export const BoldText1 = styled.p`
 ` 
 
 export const ImgWrap = styled.div`
-    max-width: 200px;
+    max-width: ${({small}) => (small) ? '200px' : '555px'};
     height: 100%;
     margin-left: auto;
     margin-right: auto;

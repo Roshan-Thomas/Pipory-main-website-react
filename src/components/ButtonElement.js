@@ -20,9 +20,9 @@ export const Button = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#ccc' : '#000')};
-        color: #000;
-        font-weight: bold;
+        background: ${({primary}) => (primary ? 'conic-gradient(from 180deg at 50% 50%, #E229B3 -82.5deg, #FE5009 61.87deg, #E229B3 277.5deg, #FE5009 421.87deg)' : '#000')};
+        color: #fff;
+        font-weight: medium;
     }
 
     @media screen and (max-width: 768px) {
