@@ -9,13 +9,13 @@ import {
     FooterLinkItems,
     FooterLinkTitle,
     FooterLink,
+    FooterOutwardLink,
     SocialMedia,
     SocialMediaWrap,
     SocialLogo, 
     WebsiteRights, 
     SocialIcons, 
     SocialIconLink,
-    MailToLink
 } from './FooterElements'
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
                             <FooterLinkItems>
                                 <FooterLinkTitle>Menu</FooterLinkTitle>
                                 <FooterLink to="/">Home</FooterLink>
-                                <FooterLink to="/our-story">Our Story</FooterLink>
+                                <FooterOutwardLink href="https://piporyblog.wordpress.com/">Blog</FooterOutwardLink>
                                 <FooterLink to="/collab">Collab</FooterLink>
                                 <FooterLink to="/careers">Careers</FooterLink>
                             </FooterLinkItems>
@@ -45,16 +45,16 @@ const Footer = () => {
                         <FooterLinksWrapper>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Customer Support</FooterLinkTitle>
-                                <MailToLink href="mailto:support@pipory.com" target="_blank">support@pipory.com</MailToLink>
+                                <FooterOutwardLink href="mailto:support@pipory.com" target="_blank">support@pipory.com</FooterOutwardLink>
                                 <FooterLink to="/contact">Contact Us</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <FooterLink to="/">Instagram</FooterLink>
-                                <FooterLink to="/">Facebook</FooterLink>
-                                <FooterLink to="/">Youtube</FooterLink>
-                                <FooterLink to="/">Twitter</FooterLink>
-                                <FooterLink to="/">LinkedIn</FooterLink>
+                                <FooterOutwardLink href="https://www.instagram.com/?hl=en" target="_blank" aria-label="Instagram">Instagram</FooterOutwardLink>
+                                <FooterOutwardLink href="https://www.facebook.com/" target="_blank" aria-label="Facebook">Facebook</FooterOutwardLink>
+                                <FooterOutwardLink href="https://www.youtube.com/" target="_blank" aria-label="Youtube">Youtube</FooterOutwardLink>
+                                <FooterOutwardLink href="https://twitter.com/" target="_blank" aria-label="Twitter">Twitter</FooterOutwardLink>
+                                <FooterOutwardLink href="https://www.linkedin.com/company/pipory/" target="_blank" aria-label="LinkedIn">LinkedIn</FooterOutwardLink>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>
@@ -66,7 +66,7 @@ const Footer = () => {
                                 <SocialIconLink href="/" target="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
                                 <SocialIconLink href="/" target="_blank" aria-label="Facebook"><FaFacebook /></SocialIconLink>
                                 <SocialIconLink href="/" target="_blank" aria-label="Youtube"><FaYoutube /></SocialIconLink>
-                                <SocialIconLink href="//www.twitter.com/roshan__thomas" target="_blank" aria-label="Twitter"><FaTwitter /></SocialIconLink>
+                                <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="Twitter"><FaTwitter /></SocialIconLink>
                                 <SocialIconLink href="//www.linkedin.com/company/pipory/" target="_blank" aria-label="Linkedin"><FaLinkedin /></SocialIconLink>
                             </SocialIcons>
                         </SocialMediaWrap>

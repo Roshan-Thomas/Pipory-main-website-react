@@ -69,7 +69,7 @@ export const FooterLink = styled(Link)`
     }
 `
 
-export const MailToLink = styled.a`
+export const FooterOutwardLink = styled.a`
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
