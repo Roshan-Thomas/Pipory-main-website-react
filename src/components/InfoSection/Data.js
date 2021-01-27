@@ -8,7 +8,7 @@ export const homeObjOne = {
     description2: 'each post = 1 pip coin (daily limit 5)',
     description3: 'Every 100 impressions on post = 1 pip coin (no limit)',
     imgStart: false,
-    img: require('../../images/image-1.png').default,
+    img: require('../../images/mockup1.png').default,
     alt: 'mockup 1',
     darkText: true
 }
@@ -21,7 +21,7 @@ export const homeObjTwo = {
     headline: 'Earn discounts & Rewards using Pip Coins',
     description: 'Create good content, complete missions & you can avail discounts and rewards in return. The pipory bazaar is waiting with numerous rewards which you can avail by fueling your passion.',
     imgStart: true,
-    img: require('../../images/image-2.png').default,
+    img: require('../../images/mockup2.png').default,
     alt: 'mockup 2',
     darkText: true
 }
@@ -34,7 +34,7 @@ export const homeObjThree = {
     headline: 'Monetize your Passion',
     description: `A lot of creative talent is being wasted in social media platforms. Earn 1000+ followers in Pipory -> monetize your content and start earning money for the reach you get.`,
     imgStart: false,
-    img: require('../../images/image-3.png').default,
+    img: require('../../images/mockup3.png').default,
     alt: 'mockup 3',
     darkText: true
 }
