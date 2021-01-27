@@ -23,7 +23,7 @@ const Hero = () => {
                     <HeroH1>Your Creativity deserves to be rewarded.</HeroH1>
                     <HeroP>Exclusive rewards, discounts & monetization for your content</HeroP>
                     <HeroBtn>
-                        <HeroBtnLink to="/request">Request Access</HeroBtnLink>
+                        <HeroBtnLink to="/download">Download Now</HeroBtnLink>
                     </HeroBtn>
                 </ColumnRight>
             </HeroWrapper>
