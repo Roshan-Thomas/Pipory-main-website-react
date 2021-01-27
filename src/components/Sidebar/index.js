@@ -6,6 +6,7 @@ import {
     SidebarWrapper,
     SidebarMenu,
     SidebarLink,
+    SidebarOutwardLink,
     SideBtnWrap,
     SidebarRoute
 } from './SidebarElements'
@@ -18,7 +19,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="/our-story" onClick={toggle}>Our Story</SidebarLink>
+                    <SidebarOutwardLink href="https://piporyblog.wordpress.com/" onClick={toggle}>Blog</SidebarOutwardLink>
                     <SidebarLink to="/collab" onClick={toggle}>Collab</SidebarLink>
                     <SidebarLink to="/careers" onClick={toggle}>Careers</SidebarLink>
                     <SidebarLink to="/contact" onClick={toggle}>Contact</SidebarLink>
