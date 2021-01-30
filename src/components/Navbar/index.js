@@ -4,8 +4,9 @@ import {IconContext} from 'react-icons/lib'
 import {animateScroll as scroll} from 'react-scroll'
 import { 
     NavbarContainer, 
-    Nav, 
-    NavLogo,
+    Nav,
+    NavLogoWrap,
+    Logo,
     MobileIcon,
     NavMenu,
     NavItem,
@@ -14,6 +15,7 @@ import {
     NavBtnLink,
     NavOutwardLink
 } from './NavbarElements'
+import logo from '../../images/logo/orange_trans_bg.svg'
 
 const NavBar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -39,9 +41,9 @@ const NavBar = ({ toggle }) => {
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={toggleHome}>
-                            Pipory
-                        </NavLogo>
+                        <NavLogoWrap to="/" onClick={toggleHome}>
+                            <Logo src={logo} alt="pipory logo" />
+                        </NavLogoWrap>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
