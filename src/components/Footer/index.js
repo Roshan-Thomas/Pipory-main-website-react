@@ -12,11 +12,13 @@ import {
     FooterOutwardLink,
     SocialMedia,
     SocialMediaWrap,
-    SocialLogo, 
+    LogoWrap,
+    Logo, 
     WebsiteRights, 
     SocialIcons, 
     SocialIconLink,
 } from './FooterElements'
+import logo from '../../images/logo/writing_orange_trans_bg.svg'
 
 const Footer = () => {
     const toggleHome = () => {
@@ -60,7 +62,9 @@ const Footer = () => {
                     </FooterLinksContainer>
                     <SocialMedia>
                         <SocialMediaWrap>
-                            <SocialLogo to='/' onClick={toggleHome}>Pipory</SocialLogo>
+                            <LogoWrap to='/' onClick={toggleHome}>
+                                <Logo src={logo} alt="pipory logo" />
+                            </LogoWrap>
                             <WebsiteRights>Pipory © {new Date().getFullYear()}. All rights reserved </WebsiteRights>
                             <SocialIcons>
                                 <SocialIconLink href="https://www.instagram.com/?hl=en" target="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
