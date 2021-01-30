@@ -19,7 +19,7 @@ export const DownloadWrapper = styled.div`
 `
 
 export const LogoWrap = styled.div`
-    max-width: 150px;
+    max-width: 120px;
     height: 100%;
     display: flex;
     margin-left: auto;

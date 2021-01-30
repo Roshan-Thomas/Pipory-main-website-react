@@ -99,16 +99,17 @@ export const SocialMediaWrap = styled.div`
     }
 `
 
-export const SocialLogo = styled(Link)`
-    color: #fff;
+export const LogoWrap = styled(Link)`
     justify-self: start;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
-    font-weight: bold;
+    max-width: 100px;
+`
+
+export const Logo = styled.img`
+    width: 100%;
+    margin-bottom: 20px;
 `
 
 export const WebsiteRights = styled.small`

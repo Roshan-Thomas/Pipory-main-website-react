@@ -29,17 +29,23 @@ export const NavbarContainer = styled.div`
     font-family: 'Poppins';
 `;
 
-export const NavLogo = styled(Link)`
-    color: #fff;
-    justify-self: flex-start;
+
+export const NavLogoWrap = styled(Link)`
+    justify-self: start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
-`;
+    max-width: 40px;
+    margin-left: 30px;
+
+    @media screen and (max-width: 300px){
+        max-width: 30px;
+    }
+`
+
+export const Logo = styled.img`
+    width: 100%;
+`
 
 export const MobileIcon = styled.div`
     display: none;

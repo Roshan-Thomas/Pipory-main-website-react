@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {Button} from '../ButtonElement'
 import { IoLogoGooglePlaystore, IoLogoApple } from 'react-icons/io5'
 import {IconContext} from 'react-icons/lib'
-import logo from '../../images/gatsby-icon.png'
+import logo from '../../images/logo/orange_trans_bg.svg'
 import {
     DownloadContainer,
     LogoWrap,
