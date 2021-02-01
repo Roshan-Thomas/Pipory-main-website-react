@@ -10,7 +10,7 @@ import {
     HeroBtn,
     HeroBtnLink
 } from './HeroElements'
-import Image from '../../images/hero-pic.png'
+import Image from '../../images/hero-pic.jpg'
 
 const Hero = () => {
     return (

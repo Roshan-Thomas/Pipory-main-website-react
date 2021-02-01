@@ -1,8 +1,8 @@
 import React from 'react'
-import Image1 from '../../images/features-1.png'
-import Image2 from '../../images/features-2.png'
-import Image3 from '../../images/features-3.png'
-import Image4 from '../../images/features-4.png'
+import Image1 from '../../images/features-1.jpg'
+import Image2 from '../../images/features-2.jpg'
+import Image3 from '../../images/features-3.jpg'
+import Image4 from '../../images/features-4.jpg'
 
 import {
     FeaturesContainer,
