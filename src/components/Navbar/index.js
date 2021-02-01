@@ -7,6 +7,8 @@ import {
     Nav,
     NavLogoWrap,
     Logo,
+    SmNavLogoWrap,
+    SmLogo,
     MobileIcon,
     NavMenu,
     NavItem,
@@ -15,7 +17,9 @@ import {
     NavBtnLink,
     NavOutwardLink
 } from './NavbarElements'
-import logo from '../../images/logo/orange_trans_bg.svg'
+
+import smlogo from '../../images/logo/orange_trans_bg.svg'
+import logo from '../../images/logo/orange_logo_and_writing_trans_bg.svg'
 
 const NavBar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -44,6 +48,9 @@ const NavBar = ({ toggle }) => {
                         <NavLogoWrap to="/" onClick={toggleHome}>
                             <Logo src={logo} alt="pipory logo" />
                         </NavLogoWrap>
+                        <SmNavLogoWrap to="/" onClick={toggleHome}>
+                            <SmLogo src={smlogo} alt="small logo" />
+                        </SmNavLogoWrap>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>

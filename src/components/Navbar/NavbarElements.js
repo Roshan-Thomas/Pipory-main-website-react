@@ -35,15 +35,41 @@ export const NavLogoWrap = styled(Link)`
     cursor: pointer;
     display: flex;
     align-items: center;
-    max-width: 40px;
-    margin-left: 30px;
+    max-width: 120px;
+    margin-left: 0px;
 
-    @media screen and (max-width: 300px){
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+
+    /* @media screen and (max-width: 300px){
+        max-width: 100px;
+        margin-left: 0px;
+    } */
+`
+
+export const SmNavLogoWrap = styled(Link)`
+    display: none;
+    
+    @media screen and (max-width: 480px){
+        justify-self: start;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        max-width: 40px;
+    }
+
+    @media screen and (max-width: 280px) {
         max-width: 30px;
     }
 `
 
 export const Logo = styled.img`
+    width: 100%;
+`
+
+export const SmLogo = styled.img`
     width: 100%;
 `
 
