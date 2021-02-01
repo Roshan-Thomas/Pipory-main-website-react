@@ -9,7 +9,7 @@ export const homeObjOne = {
     description3: 'Every 100 impressions on post = 1 pip coin (no limit)',
     imgStart: false,
     smallImg: true,
-    img: require('../../images/mockup1.png').default,
+    img: require('../../images/mockup1.webp').default,
     alt: 'mockup 1',
     darkText: true
 }
@@ -23,7 +23,7 @@ export const homeObjTwo = {
     description: 'Create good content, complete missions & you can avail discounts and rewards in return. The pipory bazaar is waiting with numerous rewards which you can avail by fueling your passion.',
     imgStart: true,
     smallImg: true,
-    img: require('../../images/mockup2.png').default,
+    img: require('../../images/mockup2.webp').default,
     alt: 'mockup 2',
     darkText: true
 }
@@ -37,7 +37,7 @@ export const homeObjThree = {
     description: `A lot of creative talent is being wasted in social media platforms. Earn 1000+ followers in Pipory -> monetize your content and start earning money for the reach you get.`,
     imgStart: false,
     smallImg: true,
-    img: require('../../images/mockup3.png').default,
+    img: require('../../images/mockup3.webp').default,
     alt: 'mockup 3',
     darkText: true
 }
@@ -52,7 +52,7 @@ export const collabObjOne = {
     description2: 'Users entering your code will get 15 Coins. Each time a user enters your code, you will recieve 5 Coins.',
     imgStart: true,
     smallImg: false,
-    img: require('../../images/collab-2.png').default,
+    img: require('../../images/collab-2.webp').default,
     alt: 'users collaborating',
     darkText: true
 }

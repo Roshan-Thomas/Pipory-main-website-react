@@ -32,7 +32,7 @@ export const NotFoundPage = {
     fontBig: true,
     description: 'The page you are looking for might be removed or is temporarily unavailabe',
     imgStart: false,
-    img: require('../../images/notfound.png').default,
+    img: require('../../images/notfound.webp').default,
     alt: 'not found illustration',
     ButtonText1: 'Come Home',
     button1Link: '/'
