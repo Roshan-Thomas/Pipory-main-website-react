@@ -56,7 +56,7 @@ const NavBar = ({ toggle }) => {
                         </MobileIcon>
                         <NavMenu>
                             <NavItem>
-                                <NavOutwardLink href="https://piporyblog.wordpress.com/">
+                                <NavOutwardLink href="https://piporyblog.wordpress.com/" target="_blank">
                                     Blog
                                 </NavOutwardLink>
                             </NavItem>
