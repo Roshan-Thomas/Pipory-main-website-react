@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
-export const Button = styled(Link)`
+export const Button = styled.a`
     border-radius: 50px;
     background: #000;
     white-space: nowrap;
