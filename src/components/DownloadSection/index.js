@@ -30,7 +30,8 @@ const Download = () => {
                         <DownloadH2>Available Now</DownloadH2>
                         <DownloadLinksWrapper>
                             <Button
-                                to="/download-applestore"
+                                href="https://play.google.com/store/apps/details?id=com.pipory.pipory"
+                                target="_blank"
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
@@ -39,24 +40,16 @@ const Download = () => {
                             <IoLogoApple /> Download on Appstore
                             </Button>
                             <Button
-                                to="/download-playstore"
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
                                 moveLeft="true"
                                 fontBig="true"
+                                href="https://play.google.com/store/apps/details?id=com.pipory.pipory"
+                                target="_blank"
                             >
-                                <IoLogoGooglePlaystore />Download on Playstore 
+                                <IoLogoGooglePlaystore /> Download on Playstore
                             </Button>
-                            {/* <Button
-                                to="/request"
-                                onMouseEnter={onHover}
-                                onMouseLeave={onHover}
-                                primary="true"
-                                fontBig="true"
-                            >
-                                Request Access
-                            </Button> */}
                         </DownloadLinksWrapper>
                     </DownloadWrapper>
                 </DownloadContainer>

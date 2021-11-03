@@ -10,6 +10,7 @@ import ContactUs from './pages/Contact'
 import OurStory from './pages/Navbar-Pages/our-story'
 import Collab from './pages/Navbar-Pages/collab'
 import Careers from './pages/Navbar-Pages/careers'
+import ComingSoon from './pages/ComingSoon';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/collab" exact component={Collab} />
         <Route path="/careers" exact component={Careers} />
         <Route path="/contact" exact component={ContactUs} />
+        <Route path="/coming-soon" exact component={ComingSoon} />
         <Route exact path="/:id" render={props => <Post {...props} />} />
         <Route component={ErrorPage} />
       </Switch>

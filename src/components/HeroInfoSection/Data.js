@@ -9,8 +9,8 @@ export const collabHeroObj = {
     ButtonText1: 'Apply Now',
     ButtonText2: 'Learn More',
     buttonShow: true,
-    button1Link: '/apply-now',
-    button2Link: '/learn-more'
+    button1Link: '/coming-soon',
+    button2Link: '/coming-soon'
 } 
 
 export const careersHeroObj = {
@@ -23,7 +23,7 @@ export const careersHeroObj = {
     img: require('../../images/astronaut.webp').default,
     alt: 'astronaut',
     ButtonText1: 'View Open Positions',
-    button1Link: '/open-positions'
+    button1Link: '/coming-soon'
 }
 
 export const NotFoundPage = {
@@ -34,6 +34,18 @@ export const NotFoundPage = {
     imgStart: false,
     img: require('../../images/notfound.webp').default,
     alt: 'not found illustration',
+    ButtonText1: 'Come Home',
+    button1Link: '/'
+}
+
+export const ComingSoonPage = {
+    id: 'notFound',
+    headline1: 'Coming Soon',
+    fontBig: true,
+    description: 'Coming very soon in the distant future. Stay tuned!!',
+    imgStart: false,
+    img: require('../../images/collaboration.webp').default,
+    alt: 'coming soon illustration',
     ButtonText1: 'Come Home',
     button1Link: '/'
 }

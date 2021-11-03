@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 export const HeroContainer = styled.div`
     background: ${({bgDark}) => (bgDark ? '#000' : '#fff')};
@@ -110,7 +110,7 @@ export const HeroBtn = styled.div`
     align-items: center;
 `
 
-export const HeroBtnLink = styled(Link)`
+export const HeroBtnLink = styled.a`
     border-radius: 50px;
     background: conic-gradient(from 180deg at 50% 50%, #E229B3 -82.5deg, #FE5009 61.87deg, #E229B3 277.5deg, #FE5009 421.87deg);
     white-space: nowrap;

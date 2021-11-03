@@ -23,7 +23,7 @@ const Hero = () => {
                     <HeroH1>Your Creativity deserves to be rewarded.</HeroH1>
                     <HeroP>Exclusive rewards, discounts & monetization for your content</HeroP>
                     <HeroBtn>
-                        <HeroBtnLink to="/download">Download Now</HeroBtnLink>
+                        <HeroBtnLink href="https://play.google.com/store/apps/details?id=com.pipory.pipory" target="_blank">Download Now</HeroBtnLink>
                     </HeroBtn>
                 </ColumnRight>
             </HeroWrapper>
