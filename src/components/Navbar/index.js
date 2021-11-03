@@ -77,7 +77,7 @@ const NavBar = ({ toggle }) => {
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/download">Download Now</NavBtnLink>
+                            <NavBtnLink href="https://play.google.com/store/apps/details?id=com.pipory.pipory" target="_blank">Download Now</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>
